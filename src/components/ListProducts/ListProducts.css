@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+.product{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 32px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  margin: 22px;
+}
+
+.list-products{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px;
+}
+
+.product-image{
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.image{
+  width: 240px;
+  height: 240px;
+}
+
+.product_description{
+  line-height: 20px;
+  color: #1C1C1C;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  text-align: left;
+  width: 240px;
+  height: 60px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  width: 240px;
+  height: 60px;
+  left: 0px;
+  line-height: 20px;
+  color: #1C1C1C;
+}
+
+
+
+.price{
+  width: 240px;
+  height: 20px;
+  text-align: left;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  text-decoration-line: line-through;
+  color: #B5B5B6;
+  margin-bottom: 0;
+}
+
+.price-discount{
+  text-align: left;
+  width: 240px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  color: #DA4B4F;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+.installments-text{
+  position: static;
+  width: 240px;
+  text-align: left;
+  height: 16px;
+  left: 0px;
+  top: 52px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #848587;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+.installments-text-black{
+  color: #1C1C1C;
+}
+
+.wishlist-image{
+  height: 21px;
+  width: 24px;
+  border-radius: 0px;
+}
+
+.btn-buy{
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
+  width: 240px;
+  height: 48px;
+  background: #40B25C;
+  border-radius: 5px;
+  border: none;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn{
+  position: static;
+  width: 91px;
+  height: 24px;
+  left: 74.5px;
+  top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.wishlist{
+  border-radius: 50px;
+  background: #F2F3F6;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 63%;
+  position: absolute;
+}
+
+.btn-wishlist{
+  border: none;
+}
+
+.wishlist-image{
+  background: #F2F3F6;
+}
