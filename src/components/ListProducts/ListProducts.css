@@ -11,6 +11,10 @@
   margin: 22px;
 }
 
+.product:hover{
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
 .list-products{
   display: flex;
   flex-wrap: wrap;
@@ -122,16 +126,36 @@
   padding: 12px 24px;
   width: 240px;
   height: 48px;
-  background: #40B25C;
   border-radius: 5px;
   border: none;
   margin-top: 32px;
   width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+}
+
+.green-test{
+  background: #40B25C;
+  color: #FFFFFF;
+}
+
+.btn-buy:hover{
+  background: #1C6C3E;
 }
 
 .btn{
   display: flex;
   justify-content: center;
+}
+
+.isSelect {
+  background: #A3F9B9;
+  color: #1C1C1C;
 }
 
 .add-btn{
@@ -157,8 +181,8 @@
 .wishlist{
   border-radius: 50px;
   background: #F2F3F6;
-  width: 48px;
-  height: 48px;
+  width: 49px;
+  height: 49px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,10 +190,54 @@
   position: absolute;
 }
 
+.wishlist:hover{
+  background: #FEE5EC;
+}
+
+.wishlist-svg-select:active *{
+  fill: #FFFFFF;
+}
+
+.wishlist-click{
+  background: #DA4B4F;
+}
+
+.wishlist-click:hover {
+  background: #C22539;
+}
+
+
+.wishlist-click .wishlist-svg-select * {
+  fill: #FFFFFF;
+}
+
 .btn-wishlist{
   border: none;
+  margin-top: 5px;
+  border-radius: 50px;
+  background: transparent;
 }
 
 .wishlist-image{
+  width: 26px;
+  height: 26px;
   background: #F2F3F6;
+}
+
+.wishlist-svg:hover *{
+  fill: #da0808;
+}
+
+.svg-click:hover *{
+  fill: #FFFFFF;
+}
+
+.check-icon{
+  width: 16px;
+  margin: 4px;
+  padding-right: 8px;
+}
+
+.hidden{
+  display: none;
 }
