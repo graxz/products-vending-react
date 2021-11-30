@@ -74,7 +74,7 @@ function ListProducts () {
                 <p className="installments-text">em até <strong className="installments-text-black">10x de R$ 259,90</strong> sem juros</p>
               </div>
               <div className="btn">
-                <button onClick={() => changeState(index)} className={"btn-buy " + (color.includes(index) ? "isSelect" : "green-test")}>
+                <button onClick={() => changeState(index)} className={"btn-buy " + (color.includes(index) ? "isSelect" : "green-test") + " " + (color.includes(index) ? "btn-buy-select" : "")}>
                   <img className={"check-icon " + (color.includes(index) ? "" : "hidden")} src={check} alt="icon"/>
                   {color.includes(index) ? "ADICIONADO" : "ADICIONAR"}
                 </button>

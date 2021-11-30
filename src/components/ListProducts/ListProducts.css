@@ -148,6 +148,10 @@
   background: #1C6C3E;
 }
 
+.btn-buy-select:hover{
+  background: #80ff9f;
+}
+
 .btn{
   display: flex;
   justify-content: center;
