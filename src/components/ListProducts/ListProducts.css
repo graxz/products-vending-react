@@ -200,6 +200,7 @@
 
 .wishlist-svg-select:active *{
   fill: #FFFFFF;
+  stroke: #FFFFFF;
 }
 
 .wishlist-click{
